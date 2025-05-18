@@ -4,7 +4,8 @@ import joblib
 from tensorflow.keras.models import load_model
 
 # Load model and scalers
-model = load_model('pepper_disease_model.keras')
+#model = load_model('pepper_disease_model.keras')
+model = load_model('nn_Model.keras')
 X_scaler = joblib.load('pepper_input_scaler.pkl')
 Y_scaler = joblib.load('pepper_output_scaler.pkl')
 
